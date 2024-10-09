@@ -1,0 +1,81 @@
+*{
+    font-family: "poppins", sans-serif;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-log{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-log p{
+    color: #171711;
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-menu{
+    display: flex;
+    color: #626266;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    align-items: center;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    width: 80%;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 3px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+.cart button{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: 1px #171711 solid;
+    height: 45px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+
+}
+.cart button:active{
+    background:#e1e1ec;
+    color: white;
+}
+.nav-cart-count{
+    background-color: red;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -55px;
+    margin-top: -35px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+}
+.Links{
+    text-decoration: none;
+}
