@@ -11,10 +11,11 @@
     gap: 20px;
     align-items: center;
 }
-.nav-log p{
+.shopper{
     color: #171711;
     font-size: 30px;
     font-weight: 600;
+    
 }
 .nav-menu{
     display: flex;
